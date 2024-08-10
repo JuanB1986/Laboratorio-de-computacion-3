@@ -8,7 +8,7 @@ const Ejercicio1 = () => {
     <div>
         Ejercicio 1
       <ul>
-        {beers.map((a)=>(<li>{a.beerName} - ${a.price*DOLAR}</li>))}
+        {beers.map((a,index)=>(<li key={index}>{a.beerName} - ${a.price*DOLAR}</li>))}
       </ul>
     </div>
   )

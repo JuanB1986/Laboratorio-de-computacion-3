@@ -6,7 +6,7 @@ const Ejercicio2 = () => {
     <div>
         Ejercicio 2: Cervezas Disponibles
         <ul>
-           {beers.filter((s)=>s.available == true).map((d)=>(<li>{d.beerName}</li>))}
+           {beers.filter((s)=>s.available == true).map((d,index)=>(<li key={index}>{d.beerName}</li>))}
         </ul>
 
     </div>

@@ -5,7 +5,7 @@ const Ejercicio4 = () => {
 
     let beerStyleSet = new Set(beers.map(m=>m.beerStyle))
     let beeStyleArray = Array.from(beerStyleSet)
-    console.log(beeStyleArray)
+
   return (
     <div>
         Ejercicio 4: Tipos de cervezas       

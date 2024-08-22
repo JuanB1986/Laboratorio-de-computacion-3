@@ -5,18 +5,21 @@ const Table = ({arrayTable}) => {
     <div>
       <table className='classTable'>
         <caption className='classCaption'>Tabla Marcas</caption>
-        <tr>
-            <th>Brand</th>
-            <th>Income</th>
-        </tr>
-
-        {arrayTable.map(m => 
-          ( <tr>
-              <td className='classCell'>{m.brand}</td>
-              <td className='classCell'>{m.income}</td>
-            </tr>)     
-          )
-        }
+          <thead>
+            <tr>
+                <th>Brand</th>
+                <th>Income</th>
+            </tr>
+          </thead>
+        <tbody>
+          {arrayTable.map((m,index) => 
+            ( <tr key={index}>
+                <td className='classCell'>{m.brand}</td>
+                <td className='classCell'>{m.income}</td>
+              </tr>)     
+            )
+          }
+        </tbody>
       </table>
       <p>Promedio {arrayTable.reduce( (acum, val)=>acum += parseInt(val.income),0)/parseInt(arrayTable.length)}</p>
     </div>

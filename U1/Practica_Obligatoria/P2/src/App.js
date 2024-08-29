@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Table from './components/Table';
+import Table from './Components/Table';
 
 const netIncomes = [
   {brand: 'McDonalds', income: 1291283}, 

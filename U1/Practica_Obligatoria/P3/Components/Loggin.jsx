@@ -12,8 +12,8 @@ const Loggin = () => {
 
     const buttonClick = (event) => {
 
-        if (pass==""){
-            alert("Campo vacío")
+        if (pass=="" || pass.length==1){
+            alert("Campo vacío o una sola letra")
         }
 
         if(pass.includes('o') | pass.includes('O')){

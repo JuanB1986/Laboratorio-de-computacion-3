@@ -1,0 +1,29 @@
+.tarea_contenedor{
+    margin-top: 5px;    
+    margin-left: 2%;
+}
+
+.tarea_tabla{
+    border-radius: 5px;
+    border: 1px solid rgb(72, 72, 145);
+    background-color: rgb(196, 196, 151);
+}
+
+
+.tarea_celda{
+    border-radius: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(66, 114, 116);
+    color: azure;
+    width: 400px;
+    text-align: center;
+}
+
+.tarea_boton{
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    color: rgb(36, 99, 99);
+    font-weight: 800;
+}

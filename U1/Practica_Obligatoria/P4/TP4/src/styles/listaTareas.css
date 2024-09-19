@@ -1,0 +1,30 @@
+
+.listaTareas_titulo{
+   font-variant: small-caps;
+   text-decoration: underline;
+}
+
+.listaTareas_label{
+    font-weight: 700;
+}
+
+.listaTareas_input{
+    margin-left: 20px;
+    width: 400px;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid rgb(110, 110, 110);
+    font-weight: 600;
+    color: rgb(64, 114, 116);
+}
+
+.listaTareas_boton{
+    margin-left: 20px;
+    width: 140px;
+    height: 30px;
+    border-radius: 8px;
+    color: rgb(64, 114, 116);
+    background-color: rgb(255, 255, 255);
+    font-weight: 800;
+    border: 1px solid rgb(110, 110, 110);
+}
